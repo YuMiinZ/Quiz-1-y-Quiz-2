@@ -99,8 +99,10 @@ int main(){
     list<Media> listaMedia;
     Media media1(AUDIO,"Marcos","audios/audioNotiDigital","02/03/2022");
     Media media2(FOTO,"Elizabeth","foto/fotoNotiDigital","02/03/2022");
+    Media media3(VIDEO,"Jhon","video/videoNotiDigital","08/02/2022");
     listaMedia.push_back(media1);
     listaMedia.push_back(media2);
+    listaMedia.push_back(media3);
 
     vector<Noticia*> listaNoticias{new NoticiaPaper("Titulo1","27/02/2022","Tony","/carpeta1/imagenes"),
     new NoticiaDigital("Titulo2","30/02/2022","Marta",listaMedia), new NoticiaRadio("Titulo3","17/06/2015","Tennessee","www.patitoMix.es")};
